@@ -1,0 +1,24 @@
+body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 1200px;
+}
+
+table {
+  display: flex;
+  justify-content: flex-start;
+  min-width: 10rem;
+  tr > th {
+    text-align: left;
+    /*min-width: 150px;*/
+  }
+}
+
+tbody > * > * {
+  padding: 0.5rem;
+}
+tbody > * > *:first-child {
+  padding-left: 0;
+}
