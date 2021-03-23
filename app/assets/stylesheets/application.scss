@@ -22,3 +22,16 @@ tbody > * > * {
 tbody > * > *:first-child {
   padding-left: 0;
 }
+
+ul.links {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  li {
+    padding: 0 0.5rem;
+  }
+  li:first-child {
+    padding-left: 0;
+  }
+}
