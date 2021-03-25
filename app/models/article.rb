@@ -1,9 +1,9 @@
 class Article < ApplicationRecord
-	# include Visible
+	include Visible
 	has_many :comments
 
 	validates :title, presence: true,
-			  length: { minimum: 5 }
-	validates :text, presence: true,
-			  length: { minimum: 5 }
+	          length: { minimum: 5 }
+	validates :body, presence: true,
+	          length: { minimum: 5 }
 end

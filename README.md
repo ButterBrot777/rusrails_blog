@@ -1,7 +1,4 @@
 # README
-This is the learning project based od http://rusrails.ru/getting-started-with-rails;
-
-It will be a personal blog on Ruby on Rails.
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
