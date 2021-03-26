@@ -26,6 +26,19 @@
     <%= form.text_area :body %>
   </p>
 
+  <div class="checkbox__container">
+<!--    alternative check_box examples-->
+<!--    <%#= radio_button("article", "status", "public", {:checked => true}) %><strong>Public</strong>-->
+<!--    <%#= form.radio_button :status, 'public', :checked => true %><strong>Public</strong>-->
+
+    <%= form.radio_button :status, 'public', :checked => true %>
+    <%= form.label :status, 'public', :value => 'Public' %>
+    <%= form.radio_button :status, 'private' %>
+    <%= form.label :status, 'private', :value => 'Private' %>
+    <%= form.radio_button :status, 'archived' %>
+    <%= form.label :status, 'archived', :value => 'Archived' %>
+  </div>
+
   <button class="button">
     <%= form.submit %>
   </button>
